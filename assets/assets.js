@@ -39,6 +39,7 @@ import github_icon from './github.png';
 import github_icon_dark from './github-dark.png';
 import linkedin_icon from './linkedin.png';
 import flaticon_icon from './flaticon.png';
+import user_image_placeholder from './user-image-placeholder.png';
 
 export const assets = {
     user_image,
@@ -81,7 +82,8 @@ export const assets = {
     github_icon,
     github_icon_dark,
     linkedin_icon,
-    flaticon_icon
+    flaticon_icon,
+    user_image_placeholder
 };
 
 export const workData = [

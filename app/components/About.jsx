@@ -42,7 +42,7 @@ const About = () => {
         >
           <Image
             alt="user-img"
-            src={assets.user_image}
+            src={assets.user_image_placeholder}
             className="w-full rounded-3xl"
           />
         </motion.div>
@@ -61,7 +61,7 @@ const About = () => {
             transition={{ duration: 0.8, delay: 1 }}
             className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"
           >
-            {infoList.map(({ icon, iconDark, title, description }, index) => (
+            {infoList.map(({ icon, title, description }, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
                 key={index}
