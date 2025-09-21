@@ -61,7 +61,7 @@ const About = () => {
             transition={{ duration: 0.8, delay: 1 }}
             className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"
           >
-            {infoList.map(({ icon, title, description }, index) => (
+            {infoList.map(({ iconDark, title, description }, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
                 key={index}
@@ -69,7 +69,7 @@ const About = () => {
               >
                 <Image
                   alt={title}
-                  src={icon}
+                  src={iconDark}
                   className="w-7 mt-3"
                 />
                 <h3 className="my-4 font-semibold text-gray-700 dark:text-white">
