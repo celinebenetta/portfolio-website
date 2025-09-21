@@ -60,7 +60,7 @@ const Portfolio = () => {
               key={index}
               className="pl-3 md:basis-1/2 lg:basis-1/3 justify-center items-center"
             >
-              <div className="p-1">
+              <div className="p-3">
                 <Card className="flex h-[250px] ">
                   <CardContent className="flex justify-center items-center p-6">
                     <span className="text-2xl font-semibold">

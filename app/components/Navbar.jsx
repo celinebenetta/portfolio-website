@@ -37,7 +37,7 @@ const Navbar = () => {
           className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 z-50 ${
             isScroll
               ? ""
-              : "bg-white/50 backdrop-blur-lg shadow-sm border border-color-white/50 bg-transparent"
+              : "bg-white/50 backdrop-blur-lg shadow-sm border border-color-white/50"
           }`}
         >
           <li> <a href="#top">Home</a> </li>
