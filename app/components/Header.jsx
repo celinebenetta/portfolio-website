@@ -28,7 +28,7 @@ const Header = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.7 }}
-        className="max-w-2xl mx-auto"
+        className="max-w-2xl mx-auto text-white/50"
       >
       This website was made this for fun and self-learning purposes.
       </motion.p>
@@ -38,7 +38,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 1 }}
         className="grid grid-cols-2 gap-6 max-w-2xl"
       >
-        {socialMedia.map(({ icon, link }, index) => (
+        {socialMedia.map(({ iconDark, link }, index) => (
           <motion.li
             whileHover={{ scale: 1.05 }}
             key={index}
@@ -48,7 +48,7 @@ const Header = () => {
               target="_blank"
               href={link}
             >
-              <Image alt="" src={icon} className="w-7 mt-3" />
+              <Image alt="" src={iconDark} className="w-7 mt-3" />
             </Link>
           </motion.li>
         ))}
