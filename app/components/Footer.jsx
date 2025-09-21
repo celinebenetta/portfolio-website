@@ -12,7 +12,6 @@ const Footer = (isDarkMode) => {
             src={assets.mail_icon}
             className="w-6"
           />
-          celinebenetta@gmail.com
         </div>
       </div>
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
